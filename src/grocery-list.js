@@ -50,7 +50,7 @@ export class GroceryList extends Component {
                         className='add'>Add</button>
                     <button
                         onClick={() => this.deleteItem(this.state.userInput)}
-                        className='clean'>Clean</button>
+                        className='clean'>Clear</button>
                     <ul>
                         {this.state.groceryList.map((item, index) => (
                             <li
